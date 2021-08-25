@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+li{
+  list-style: none;
+  color:black;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  background-color: rgb(246, 244, 244);
+  padding: 20px;
+  margin: 0px;
+  margin-bottom: 10px;
+  position: sticky;
+  top:0px;
+}
+
+
+
+.Movies{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Movie{
+  width: 30%;
+  margin: 25px;
+  padding:25px;
+  background-color: whitesmoke;
+
+}
+.Movie img{
+  height:150px;
+ 
+}
+.Movie h3:hover {
+background-color: lightgray;
+cursor:pointer;
+}
+
+.film img{
+  height:300px
+}
