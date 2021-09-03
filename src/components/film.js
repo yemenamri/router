@@ -11,6 +11,10 @@ const film =films.find(film=>  film.id ==ID )
     <div className='film'>
       <img src={film.posterURL} />
     <h5>   {film.description}</h5>
+    <iframe src={film.video}
+        width="400" height="300">
+</iframe>
+   
     </div>
   );
 }

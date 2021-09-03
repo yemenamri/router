@@ -12,6 +12,7 @@ function Movie({ el }) {
      <h3> {el.title} </h3>
      </Link>
       <h5> {el.rating}</h5>
+      
     </div>
   );
 }
